@@ -1,0 +1,17 @@
+{
+  "budgets_mb": [
+    1000,
+    2000,
+    4000,
+    10000,
+    17600
+  ],
+  "max_footprint_mb": 482,
+  "working_sets_mb": [
+    19471,
+    17727,
+    8539
+  ],
+  "method": "geometric grid from 1 GB (at least the largest footprint) to 90% of largest active set, snap nearby paper points, add 22 GB when below Representative's active footprint",
+  "diagnostic_budget_mb": 4000
+}

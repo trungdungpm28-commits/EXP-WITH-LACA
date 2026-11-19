@@ -1,0 +1,7 @@
+{
+  "variant": "wo_edcs",
+  "best_epoch": 23,
+  "val_mae_s": 12.129024986252189,
+  "model_sha256": "b9948559613a6956be1c06bc3269626a3f5c688c17e002eebbd9aac81caf0c3d",
+  "training_sha256": "948f6d9213b3f8a8c271c10fc44ba269c6722dabcc1bde6c89760bf1db047487"
+}

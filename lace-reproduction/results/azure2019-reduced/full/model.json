@@ -1,0 +1,7 @@
+{
+  "variant": "full",
+  "best_epoch": 15,
+  "val_mae_s": 16.884542655944824,
+  "model_sha256": "08fc49d68e70116aaf2a101ed526aacb4cf52dfdea24c8be97923563b92e4f27",
+  "training_sha256": "6bb90bd1a522642bf1c8d022dfaff63ecf14064686be9ebc4f9704d254ff1f18"
+}

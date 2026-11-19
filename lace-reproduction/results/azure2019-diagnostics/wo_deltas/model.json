@@ -1,0 +1,7 @@
+{
+  "variant": "wo_deltas",
+  "best_epoch": 19,
+  "val_mae_s": 15.363447465151548,
+  "model_sha256": "02e7104da72c2f435d05559e9ce848fc4f755a261b8183a2c4fb78d13357f00b",
+  "training_sha256": "948f6d9213b3f8a8c271c10fc44ba269c6722dabcc1bde6c89760bf1db047487"
+}

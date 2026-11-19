@@ -1,0 +1,14 @@
+{
+  "model": "GBM",
+  "status": "complete",
+  "fit_elapsed_s": 85.9761355139999,
+  "config": "GradientBoostingRegressor(n_estimators=80, random_state=17291)",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 22.663833511661597,
+  "rmse_s": 428.93135059591015,
+  "mape_pct": 63746.70542317809,
+  "r2": -14.71071447404996,
+  "mse_s2": 183982.10352403158
+}

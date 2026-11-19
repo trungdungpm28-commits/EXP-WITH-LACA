@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "workloads": {
+    "Representative": {
+      "manifest_entries": 400,
+      "event_rows": 27670,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 12
+    },
+    "Rare": {
+      "manifest_entries": 1000,
+      "event_rows": 5967,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 12
+    },
+    "Random": {
+      "manifest_entries": 200,
+      "event_rows": 29680,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 12
+    }
+  },
+  "training_labels_within_splits": true,
+  "deterministic_replays": 4,
+  "deterministic_replay_budget_mb": 1600,
+  "figures": [
+    {
+      "file": "figure_08_cold_start_overhead.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "3a81e85101374921b194123b4ea348280cab83ff73222e8d4a7fea61f72b7a90"
+    },
+    {
+      "file": "figure_09_cold_start_ratio.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "51129355ae405db56e2abe99080e4450f814a89da80e7dabdcebeb1b43985c58"
+    },
+    {
+      "file": "figure_10_training_dynamics.png",
+      "width": 1980,
+      "height": 612,
+      "sha256": "83c1f709b5e69fe44d70189578525ef306c93e622e7cfb6aa42ef52c0e80aacf"
+    },
+    {
+      "file": "figure_11_reduced_ablation.png",
+      "width": 2304,
+      "height": 666,
+      "sha256": "28f8d24c8f0c7d0fb59bc41f596850ebc4ffa8260e6d3496dd092d740e920f43"
+    },
+    {
+      "file": "figure_12_expert_routing.png",
+      "width": 1980,
+      "height": 630,
+      "sha256": "32a88345190af7725e4d1f780cd2c9af370e4708e923a00aed4b0d03a22d70b9"
+    },
+    {
+      "file": "figure_13_worker_rss.png",
+      "width": 1152,
+      "height": 666,
+      "sha256": "cadb91bf1d3b65d204cbde140eb9bc00a2d25b885f07ce259ea7aa92a433a9f5"
+    },
+    {
+      "file": "figure_14_policy_cpu.png",
+      "width": 1152,
+      "height": 666,
+      "sha256": "33f55bb465088320dd805bf8aba3c420546a058e2e1f64b616a4958553c0be22"
+    }
+  ]
+}

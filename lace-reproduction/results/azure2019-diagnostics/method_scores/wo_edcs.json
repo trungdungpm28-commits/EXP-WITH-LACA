@@ -1,0 +1,13 @@
+{
+  "model": "wo_edcs",
+  "status": "complete",
+  "model_sha256": "b9948559613a6956be1c06bc3269626a3f5c688c17e002eebbd9aac81caf0c3d",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 1.4275234971316006,
+  "rmse_s": 106.82028546098981,
+  "mape_pct": 2410.1552054795943,
+  "r2": 0.025621204354201454,
+  "mse_s2": 11410.573385967351
+}

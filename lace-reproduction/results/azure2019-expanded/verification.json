@@ -1,0 +1,14 @@
+{
+  "succeeded": true,
+  "completed_comparisons": 60,
+  "verified_pngs": [
+    "figure_08_cold_start_overhead.png",
+    "figure_09_cold_start_ratio.png",
+    "figure_10_training_dynamics.png",
+    "figure_11_reduced_ablation.png",
+    "figure_12_expert_routing.png",
+    "figure_13_worker_rss.png",
+    "figure_14_policy_cpu.png"
+  ],
+  "exporter_sha256": "dd543bdcdba7b32d5e38872d0c633de2e55e67228e7bc029e6b686b9eb06915b"
+}

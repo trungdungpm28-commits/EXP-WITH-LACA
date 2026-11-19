@@ -1,0 +1,22 @@
+{
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "seed": 17291,
+  "command": "campaign.py --deadline 26997.638144730467 --output results/azure2019-reduced",
+  "host": "Linux",
+  "machine": "x86_64",
+  "clock_start_monotonic": 5397.638144730467,
+  "heavy_cutoff_monotonic": 25197.638144730467,
+  "deadline_monotonic": 26997.638144730467,
+  "source_sha256": {
+    "common.py": "2e9556e94e270774a7be7ea7addb58ee1290a01b4fbd8470a2bd298dc3fe7491",
+    "campaign.py": "fdbc62acf48f88e79c28ac00c3a0758498a5604e11110ca1bc4298e0f7708e79",
+    "export.py": "813048b95c6128ce8fffd0370f56c5ee4e77befce5060a5903e01abfbd843736",
+    "replay.py": "6187cfee36abf03d97d79765d84854097d3600664ef5a217a6f7c1d7315172e8",
+    "model.py": "52b9904986eea0b877fe752e694c93e13a5af3503383c50ce997063c444f979b",
+    "workloads.py": "e6e10b5cc3ea20591a7a3d429204337340838f781417de0c85b26e4b051edcf9",
+    "steps.py": "e39532adebf62b2f5847a769198e7a13dd5e9d6a0d1fd5c54953b0f1b1ef3d5e",
+    "data.py": "7e8c56297e3de5a42a36de3c84a4550448ab137888ce1785f9be3bbcb8282651",
+    "requirements.txt": "b469948c591a44775eb63984a99ba37e5001c451341cbe61275e6cba9b294275",
+    "vendor/faascache/gdsf.py": "251282b465be14486b68440470e3f51de14200f4356bb79c0170bb605afd3c0d"
+  }
+}

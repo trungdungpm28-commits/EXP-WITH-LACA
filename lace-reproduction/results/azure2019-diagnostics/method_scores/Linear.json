@@ -1,0 +1,14 @@
+{
+  "model": "Linear",
+  "status": "complete",
+  "fit_elapsed_s": 0.3142855270016298,
+  "config": "LinearRegression()",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 183.4862932079299,
+  "rmse_s": 229.97369874243918,
+  "mape_pct": 710090.7990106342,
+  "r2": -3.5162367062766213,
+  "mse_s2": 52887.90211327817
+}

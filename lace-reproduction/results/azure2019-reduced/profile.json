@@ -1,0 +1,15 @@
+{
+  "example_cap": 50000,
+  "request_cap": 30000,
+  "function_cap_factor": 1.0,
+  "epochs": 18,
+  "train_threads": 4,
+  "policies": [
+    "LACE",
+    "FaasCache",
+    "TTL 10 min",
+    "LRU"
+  ],
+  "prewarm": false,
+  "online_training": false
+}

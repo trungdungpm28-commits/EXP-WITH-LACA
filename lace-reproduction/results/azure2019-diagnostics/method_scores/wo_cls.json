@@ -1,0 +1,13 @@
+{
+  "model": "MoE",
+  "status": "complete",
+  "model_sha256": "19fae7da6a5d3dc32d2f7398faac5b6decb5c67f9ecef47e4e672ca3830a4bdc",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 1.7092787169300832,
+  "rmse_s": 110.16841692711115,
+  "mape_pct": 3455.544925546091,
+  "r2": -0.036417108851490854,
+  "mse_s2": 12137.08008822579
+}

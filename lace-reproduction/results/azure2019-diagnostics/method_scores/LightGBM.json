@@ -1,0 +1,14 @@
+{
+  "model": "LightGBM",
+  "status": "complete",
+  "fit_elapsed_s": 1.3164653809999436,
+  "config": "LGBMRegressor(n_estimators=120, n_jobs=4, random_state=17291, verbosity=-1)",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 8.92900194590838,
+  "rmse_s": 134.8628859277117,
+  "mape_pct": 27649.678329233688,
+  "r2": -0.5531208632314943,
+  "mse_s2": 18187.998000750977
+}

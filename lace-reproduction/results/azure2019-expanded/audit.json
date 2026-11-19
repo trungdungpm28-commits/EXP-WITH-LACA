@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "workloads": {
+    "Representative": {
+      "manifest_entries": 400,
+      "event_rows": 99956,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 20
+    },
+    "Rare": {
+      "manifest_entries": 1000,
+      "event_rows": 5967,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 20
+    },
+    "Random": {
+      "manifest_entries": 200,
+      "event_rows": 80578,
+      "timestamp_prefix_feature_checks": 10,
+      "completed_runs": 20
+    }
+  },
+  "training_labels_within_splits": true,
+  "deterministic_replays": 4,
+  "deterministic_replay_budget_mb": 1000,
+  "figures": [
+    {
+      "file": "figure_08_cold_start_overhead.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "527992d7e4ed527b6a62ec1301727074f9ff6147b6285e591b417efb4f3ca83b"
+    },
+    {
+      "file": "figure_09_cold_start_ratio.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "8d81a165d09f484c0a21b29e2fbe60c80dd0c40b3d6b47b1c10bc406e3f814d4"
+    },
+    {
+      "file": "figure_10_training_dynamics.png",
+      "width": 1980,
+      "height": 612,
+      "sha256": "b6d2d397ad40bc0169a09a96a652dbfbf0f5f30c9ec2287016f2a1246c7e76fd"
+    },
+    {
+      "file": "figure_11_reduced_ablation.png",
+      "width": 2304,
+      "height": 666,
+      "sha256": "b9f717d3557a40fb12f7ca063cb6874268be7a02ce198cad40d5f4d5bd538ad3"
+    },
+    {
+      "file": "figure_12_expert_routing.png",
+      "width": 1980,
+      "height": 630,
+      "sha256": "9fbb1b62ac864ccc4590ae9e50f8e706e8eb1f42fd10a551b5aa379c406d4ea4"
+    },
+    {
+      "file": "figure_13_worker_rss.png",
+      "width": 1152,
+      "height": 666,
+      "sha256": "f98263198c2c989cfde3fcb54a815f30ebc0062f0718262780041d195abb15b5"
+    },
+    {
+      "file": "figure_14_policy_cpu.png",
+      "width": 1152,
+      "height": 666,
+      "sha256": "bddcdd2b2d1d94e52c1f193c77fa44eb385287767ddff83d586fa831c6adc1fc"
+    }
+  ]
+}

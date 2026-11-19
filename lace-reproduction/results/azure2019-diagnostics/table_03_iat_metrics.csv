@@ -1,0 +1,21 @@
+model,status,model_sha256,test_sha256,examples,mape_examples,mae_s,rmse_s,mape_pct,r2,mse_s2,fit_elapsed_s,config
+LACE,complete,86377523c908586d9148f860339803b423fee7a51228a82ca194e0685033c724,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,1.3165218726027357,104.24747690519789,2022.6158950716258,0.07199255366623203,10867.536441099766,,
+MoE,complete,19fae7da6a5d3dc32d2f7398faac5b6decb5c67f9ecef47e4e672ca3830a4bdc,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,1.7092787169300832,110.16841692711115,3455.544925546091,-0.036417108851490854,12137.08008822579,,
+MLP,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,88.3847736173684,178.88553743477834,404170.4228030595,-1.7325669797367174,32000.03550332948,30.56354930999987,"MLPRegressor(batch_size=512, hidden_layer_sizes=(96, 96, 96), max_iter=24,
+             random_state=17291)"
+LinearSVR,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,202.01030650780257,235.65296642150403,789851.2786099485,-3.7420505367303845,55532.32058325451,3.3803566560000036,"LinearSVR(C=0.1, dual=False, loss='squared_epsilon_insensitive', max_iter=3000,
+          random_state=17291)"
+XGBoost,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,19.716849951716195,178.4374685760762,57570.38482387485,-1.7188951671721324,31839.930191838183,2.6738143080001464,"XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=True, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=6,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=120,
+             n_jobs=4, num_parallel_tree=None, ...)"
+Linear,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,183.4862932079299,229.97369874243918,710090.7990106342,-3.5162367062766213,52887.90211327817,0.3142855270016298,LinearRegression()
+LightGBM,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,8.92900194590838,134.8628859277117,27649.678329233688,-0.5531208632314943,18187.998000750977,1.3164653809999436,"LGBMRegressor(n_estimators=120, n_jobs=4, random_state=17291, verbosity=-1)"
+GBM,complete,,0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7,300000,300000,22.663833511661597,428.93135059591015,63746.70542317809,-14.71071447404996,183982.10352403158,85.9761355139999,"GradientBoostingRegressor(n_estimators=80, random_state=17291)"

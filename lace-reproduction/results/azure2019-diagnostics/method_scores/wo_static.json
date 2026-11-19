@@ -1,0 +1,13 @@
+{
+  "model": "wo_static",
+  "status": "complete",
+  "model_sha256": "3ab34946c2492bef453e0bb643fd5eba7b67969ea2bbc76ed4e4c3c207582bef",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 1.1006639659679804,
+  "rmse_s": 106.87479470607497,
+  "mape_pct": 1208.377076746283,
+  "r2": 0.024626520549405062,
+  "mse_s2": 11422.221743465669
+}

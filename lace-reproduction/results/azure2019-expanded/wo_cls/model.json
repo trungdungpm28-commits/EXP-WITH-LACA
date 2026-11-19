@@ -1,0 +1,7 @@
+{
+  "variant": "wo_cls",
+  "best_epoch": 11,
+  "val_mae_s": 16.385760498046874,
+  "model_sha256": "58907a417d449d0533db058d30e161826aa27cd637a1fbb9614f5e7ee731a011",
+  "training_sha256": "ffd3408f2f5fbc7191c68476f8c37ff87ac9ca17d15a731b3100cced2796998a"
+}

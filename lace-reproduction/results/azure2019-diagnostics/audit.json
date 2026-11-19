@@ -1,0 +1,22 @@
+{
+  "runs.csv": {
+    "completed": 60,
+    "planned": 60
+  },
+  "ablation.csv": {
+    "completed": 7,
+    "planned": 7
+  },
+  "resource_runs.csv": {
+    "completed": 9,
+    "planned": 9
+  },
+  "table_03_iat_metrics.csv": {
+    "completed": 8,
+    "planned": 8
+  },
+  "table_04_feature_ablation.csv": {
+    "completed": 5,
+    "planned": 5
+  }
+}

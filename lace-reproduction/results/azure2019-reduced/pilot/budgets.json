@@ -1,0 +1,15 @@
+{
+  "budgets_mb": [
+    200,
+    600,
+    1900
+  ],
+  "max_footprint_mb": 197,
+  "working_sets_mb": [
+    1193,
+    2012,
+    737
+  ],
+  "method": "low: max footprint or 14% median active working set; high: 90% largest; geometric middle; snap nearby paper points",
+  "diagnostic_budget_mb": 600
+}

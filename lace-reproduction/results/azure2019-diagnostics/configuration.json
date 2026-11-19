@@ -1,0 +1,79 @@
+{
+  "seed": 17291,
+  "platform": "Linux-6.12.115+deb13.1-amd64-x86_64-with-glibc2.41",
+  "width": 96,
+  "epochs": 24,
+  "budgets_mb": [
+    1000,
+    4000,
+    10000,
+    22000,
+    40000
+  ],
+  "fixed_diagnostic_mb": 22000,
+  "policies": [
+    "LACE",
+    "FaasCache",
+    "TTL 10 min",
+    "LRU"
+  ],
+  "resource_policies": [
+    "LACE",
+    "Belady",
+    "FaasCache",
+    "TTL 10 min",
+    "LRU",
+    "HIST",
+    "SIZE",
+    "LND",
+    "FREQ"
+  ],
+  "workloads": {
+    "Representative": {
+      "path": "representative.npz",
+      "sha256": "91ee9b908dabbcf02551568ac8124643426e27dcaa22efc9acf83ea18dd9ddbd",
+      "functions": 400,
+      "active_functions": 331,
+      "invocations": 9295955,
+      "working_set_mb": 20774,
+      "window_end_minute": 1440
+    },
+    "Rare": {
+      "path": "rare.npz",
+      "sha256": "c2ac528ee399432da93834b003776417830cd7493518a37f46bdd2889c610264",
+      "functions": 1000,
+      "active_functions": 339,
+      "invocations": 5967,
+      "working_set_mb": 17727,
+      "window_end_minute": 1440
+    },
+    "Random": {
+      "path": "random.npz",
+      "sha256": "9ed8c9c47d04092353543e3baf9da470ae4fdb99ac0294b0b761d2fa0ea99f0d",
+      "functions": 200,
+      "active_functions": 161,
+      "invocations": 462526,
+      "working_set_mb": 9314,
+      "window_end_minute": 1440
+    }
+  },
+  "replays_use_azure_2019": true,
+  "monitoring_deadline_monotonic": 18687.454800451727,
+  "sources": {
+    "diagnostics_models.py": "c1aefd94725ac6a15ca46f3b71e08e47d2fa92d80588ab541c31a5debfca73c9",
+    "common.py": "2e9556e94e270774a7be7ea7addb58ee1290a01b4fbd8470a2bd298dc3fe7491",
+    "diagnostic_policies.py": "ecda186d2e5d56a68fdabbc7c07d05fb0100c9faf034fc3abf4ca6de0456f5a0",
+    "diagnostics_pressure.py": "b832e271b6562b6e6b610d2e266fa5ea6bbe1a6213f3c72fb83140cfb38d8dd9",
+    "campaign.py": "73ac4719117aad35ea3da4e87059c97b0649c80e7e2dd66c44c36d721d49f951",
+    "diagnostics_export.py": "1077031cadc69ea3f8a4127e91efeb113a4d408efc8a473f5176f3a98740ff03",
+    "diagnostics_report.py": "3a7798a79478b88a4494cefd2b297fadd795585bee97d693155105e87fc7700e",
+    "export.py": "6e570f7c51c0ccd3f0cf64d011270231f8b51f9137e5d0e9a0819ab6541b7f03",
+    "replay.py": "8794953cbd87b246c73b79fcca7e0207eff19de01ed4b3558a693b623fc33251",
+    "model.py": "f498b1732ed62b61733f84d093ed76cbd32f535348cfd8b35a8154f9b8ac1516",
+    "workloads.py": "5a43fc4de1bfb14326812f0aa47dc291e8863fcd812955132db946525f4a73a0",
+    "steps.py": "38042dda5536bcd756ee3bbe3a04c90b0223115187516d59f8010268c64bf0c8",
+    "data.py": "7e8c56297e3de5a42a36de3c84a4550448ab137888ce1785f9be3bbcb8282651",
+    "audit.py": "ade6ef48489f469c911da3c46fffebce7ee1e5ca99214fc8bf3aa3e097737069",
+    "diagnostic_campaign.py": "c58da738122e98fbe7ffc72ee3ff47b338acc173537fcd5455a6f629177b07b3"
+  }
+}

@@ -1,0 +1,10 @@
+stage,status,runtime_s,detail
+task_start,recorded,,Start anchored to project directory creation and converted to monotonic time after discovering the host uses python3.
+default_network_checkout,failed,,Sandboxed GitHub fetch returned Could not resolve host. The approved fetch succeeded.
+dependency_setup,complete,,Project-local PyTorch CPU and scientific dependencies installed. Package requests used bounded connection timeouts and one retry. The initial setup process preceded the shared deadline supervisor.
+faascache_checkout,complete,,Upstream commit 25110b6f378cdc0384adc712d7885509ecd1450e.
+azure_release_and_archive,complete,,Microsoft release asset SHA-256 matched the pre-existing archive.
+initial_parse,complete,71.250,Observed shell wall time for fresh validation and parser over the verified archive.
+prototype_pilot_prepare,failed,,NumPy int64 candidate count was rejected by the JSON serializer. Cast provenance counts to built-in integers and reran successfully before measured comparisons.
+expanded_launch_attempt,failed,,The shell lacked an apply_patch executable. The structured patch tool applied the edits and the campaign launched successfully.
+initial_figure_review,corrected,,Shared limits restricted the first rendering of Figure 9 to the Representative range. Re-export used panel-specific axes. Backing replay counts and metrics were retained.

@@ -1,0 +1,14 @@
+{
+  "model": "MLP",
+  "status": "complete",
+  "fit_elapsed_s": 30.56354930999987,
+  "config": "MLPRegressor(batch_size=512, hidden_layer_sizes=(96, 96, 96), max_iter=24,\n             random_state=17291)",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 88.3847736173684,
+  "rmse_s": 178.88553743477834,
+  "mape_pct": 404170.4228030595,
+  "r2": -1.7325669797367174,
+  "mse_s2": 32000.03550332948
+}

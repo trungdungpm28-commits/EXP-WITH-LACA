@@ -1,0 +1,98 @@
+{
+  "elapsed_s": 9274.547313691275,
+  "wall_elapsed_s": 9725.757961034775,
+  "checked_images": [
+    {
+      "file": "figure_08_cold_start_overhead.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "448e99356fe2e082487c2004ee7ab4612ad27f051c1014b2bd0c513a37fa2473",
+      "data_sha256": "dc5bfbde5a1caf09e17b566236cbcaf8e12f22db6bb15a4a0ff70a3c32211241"
+    },
+    {
+      "file": "figure_09_cold_start_ratio.png",
+      "width": 2124,
+      "height": 720,
+      "sha256": "bc004fff97eeb67b7fddda5e6601c7917f090e591252b75cf21a740429f595bc",
+      "data_sha256": "dc5bfbde5a1caf09e17b566236cbcaf8e12f22db6bb15a4a0ff70a3c32211241"
+    },
+    {
+      "file": "figure_10_training_dynamics.png",
+      "width": 1980,
+      "height": 612,
+      "sha256": "07d056a2fd23b7b6a547eeb5b70a8dbd3ca794a8ee02d7fe64997405c9813942",
+      "data_sha256": "1088ce162d2f9ecbff690c57203050d982bffdd45c0ba0fe2483dd0007d47dc6"
+    },
+    {
+      "file": "figure_11_reduced_ablation.png",
+      "width": 1602,
+      "height": 1350,
+      "sha256": "3bf5a3d727e933ca77fb410ef58489c989097bcca60d93cb561494476804bf1f",
+      "data_sha256": "748cd646617a663362719ee63130b45307ce4fd8220011a8f3c7519e0d91c5bc"
+    },
+    {
+      "file": "figure_11b_ablation_at_10gb.png",
+      "width": 1602,
+      "height": 1350,
+      "sha256": "b4503980aa47c46318d9233d79336443dc3634c3f15b9e363083d03a383d73e5",
+      "data_sha256": "b5be99d1d4b3418c917c6b957f77777f0b399381b379278f056ed4064e498a1b"
+    },
+    {
+      "file": "figure_12_expert_routing.png",
+      "width": 1980,
+      "height": 630,
+      "sha256": "73f022cd24e1ea5110ef5615d71b84b4569298b3a5835656d7e14b6d128049ca",
+      "data_sha256": "e3c0457536a2cb0bfed91bbc366c03e7dd7a0b9a41863fd6f41b77f7165e77d3"
+    },
+    {
+      "file": "figure_13_worker_rss.png",
+      "width": 1800,
+      "height": 864,
+      "sha256": "d3dc329f57f991a04dc37d66e33c5fb980a25b0756131ac514ad22afd50fd726",
+      "data_sha256": "4a813891e7bf9638ce23acf01b67d86b3847c4f56ba87af3b539c3aa811b4af5"
+    },
+    {
+      "file": "figure_14_policy_cpu.png",
+      "width": 1800,
+      "height": 864,
+      "sha256": "2a36be05b9d3b3d9ce084a7405c736c0ef4a1c2fa64c920981b604cd59129d59",
+      "data_sha256": "4a813891e7bf9638ce23acf01b67d86b3847c4f56ba87af3b539c3aa811b4af5"
+    },
+    {
+      "file": "table_03_iat_metrics.png",
+      "width": 1291,
+      "height": 774,
+      "sha256": "382277f3b0f3daaa5e61abd13d6bf8195eaba20fbd5e62ba8f385c4d57ad3d89",
+      "data_sha256": "b13cda95f301ad3d4c134c01598f51414172a747708465a20f4aedca3d212552"
+    },
+    {
+      "file": "table_04_feature_ablation.png",
+      "width": 1291,
+      "height": 628,
+      "sha256": "15b02ddb5a5160d608c5dc3823a88b4d372c786913b46dcdbcba715997d5ff8a",
+      "data_sha256": "39e3197fd22834a7d6ba4eacb5d9a759b957451f4811ebb8005306280862b3f7"
+    }
+  ],
+  "audit": {
+    "runs.csv": {
+      "completed": 60,
+      "planned": 60
+    },
+    "ablation.csv": {
+      "completed": 7,
+      "planned": 7
+    },
+    "resource_runs.csv": {
+      "completed": 9,
+      "planned": 9
+    },
+    "table_03_iat_metrics.csv": {
+      "completed": 8,
+      "planned": 8
+    },
+    "table_04_feature_ablation.csv": {
+      "completed": 5,
+      "planned": 5
+    }
+  }
+}

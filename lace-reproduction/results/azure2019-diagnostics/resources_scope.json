@@ -1,0 +1,11 @@
+{
+  "workload": {
+    "path": "representative.npz",
+    "sha256": "d55da1a6d0d45202a884dbebc528747e030aa6a5746ab238c95ce9d4505f3823",
+    "invocations": 7817079
+  },
+  "event_count": 7817079,
+  "pilot_events": 60000,
+  "budget_mb": 22000,
+  "full_workload": false
+}

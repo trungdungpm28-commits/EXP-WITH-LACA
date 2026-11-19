@@ -1,0 +1,12 @@
+{
+  "figure_08_cold_start_overhead.png": "448e99356fe2e082487c2004ee7ab4612ad27f051c1014b2bd0c513a37fa2473",
+  "figure_09_cold_start_ratio.png": "bc004fff97eeb67b7fddda5e6601c7917f090e591252b75cf21a740429f595bc",
+  "figure_10_training_dynamics.png": "07d056a2fd23b7b6a547eeb5b70a8dbd3ca794a8ee02d7fe64997405c9813942",
+  "figure_11_reduced_ablation.png": "3bf5a3d727e933ca77fb410ef58489c989097bcca60d93cb561494476804bf1f",
+  "figure_11b_ablation_at_10gb.png": "b4503980aa47c46318d9233d79336443dc3634c3f15b9e363083d03a383d73e5",
+  "figure_12_expert_routing.png": "73f022cd24e1ea5110ef5615d71b84b4569298b3a5835656d7e14b6d128049ca",
+  "figure_13_worker_rss.png": "d3dc329f57f991a04dc37d66e33c5fb980a25b0756131ac514ad22afd50fd726",
+  "figure_14_policy_cpu.png": "2a36be05b9d3b3d9ce084a7405c736c0ef4a1c2fa64c920981b604cd59129d59",
+  "table_03_iat_metrics.png": "382277f3b0f3daaa5e61abd13d6bf8195eaba20fbd5e62ba8f385c4d57ad3d89",
+  "table_04_feature_ablation.png": "15b02ddb5a5160d608c5dc3823a88b4d372c786913b46dcdbcba715997d5ff8a"
+}

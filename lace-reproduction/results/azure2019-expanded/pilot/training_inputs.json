@@ -1,0 +1,14 @@
+{
+  "seed": 17291,
+  "training_functions": 924,
+  "candidate_examples": [
+    1445167,
+    279203
+  ],
+  "train_examples": 4500,
+  "val_examples": 500,
+  "train_start_s": 86400,
+  "validation_start_s": 233280,
+  "validation_end_s": 259200,
+  "training_file_sha256": "392b4be7269722b1f2767e07c1842c04dcf4770718007977a052ecc7c6b82b63"
+}

@@ -1,0 +1,14 @@
+{
+  "model": "LinearSVR",
+  "status": "complete",
+  "fit_elapsed_s": 3.3803566560000036,
+  "config": "LinearSVR(C=0.1, dual=False, loss='squared_epsilon_insensitive', max_iter=3000,\n          random_state=17291)",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 202.01030650780257,
+  "rmse_s": 235.65296642150403,
+  "mape_pct": 789851.2786099485,
+  "r2": -3.7420505367303845,
+  "mse_s2": 55532.32058325451
+}

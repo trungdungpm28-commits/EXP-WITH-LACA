@@ -1,0 +1,13 @@
+{
+  "model": "wo_deltas",
+  "status": "complete",
+  "model_sha256": "02e7104da72c2f435d05559e9ce848fc4f755a261b8183a2c4fb78d13357f00b",
+  "test_sha256": "0d5a01d5b6a53fa3908833b52b75a1f724b26c784bf0119e875b2ca29913c3a7",
+  "examples": 300000,
+  "mape_examples": 300000,
+  "mae_s": 1.18121600424828,
+  "rmse_s": 103.7083929808905,
+  "mape_pct": 1012.6982997553041,
+  "r2": 0.08156555061716941,
+  "mse_s2": 10755.430774678818
+}

@@ -1,0 +1,34 @@
+{
+  "workloads": {
+    "Representative": {
+      "path": "representative.npz",
+      "sha256": "91ee9b908dabbcf02551568ac8124643426e27dcaa22efc9acf83ea18dd9ddbd",
+      "functions": 400,
+      "active_functions": 331,
+      "invocations": 9295955,
+      "working_set_mb": 20774,
+      "window_end_minute": 1440
+    },
+    "Rare": {
+      "path": "rare.npz",
+      "sha256": "c2ac528ee399432da93834b003776417830cd7493518a37f46bdd2889c610264",
+      "functions": 1000,
+      "active_functions": 339,
+      "invocations": 5967,
+      "working_set_mb": 17727,
+      "window_end_minute": 1440
+    },
+    "Random": {
+      "path": "random.npz",
+      "sha256": "9ed8c9c47d04092353543e3baf9da470ae4fdb99ac0294b0b761d2fa0ea99f0d",
+      "functions": 200,
+      "active_functions": 161,
+      "invocations": 462526,
+      "working_set_mb": 9314,
+      "window_end_minute": 1440
+    }
+  },
+  "representative_random_historical_activity_limit": null,
+  "eligible_before_metadata": 51669,
+  "excluded_missing_historical_metadata": 1703
+}

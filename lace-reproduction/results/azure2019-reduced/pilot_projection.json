@@ -1,0 +1,11 @@
+{
+  "parsed_or_verified_s": 2.4707867280003484,
+  "pilot_prep_s": 7.434455382000124,
+  "pilot_training_s": 3.3777390400000513,
+  "pilot_batched_inference_s": 2.975582488999862,
+  "pilot_replay_s": 0.06304551500124944,
+  "pilot_live_lace_replay_s": 1.6718890960000863,
+  "projected_conservative_full_s": 805.4195299782214,
+  "remaining_heavy_s": 19191.305587194467,
+  "notes": "Inflated scaling from pilot phase times includes process startup and optional diagnostics"
+}
